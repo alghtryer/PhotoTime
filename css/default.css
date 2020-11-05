@@ -1,0 +1,226 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.5rem;
+	line-height: 1.6rem;
+	font-weight: 400;
+	font-family: 'Verdana', sans-serif;
+	color: #000;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.Grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Grid.\-top {
+	align-items: flex-start;
+}
+
+.Grid.\-middle {
+	align-items: center;
+}
+
+.Grid.\-bottom {
+	align-items: flex-end;
+}
+
+.Grid.\-stretch {
+	align-items: stretch;
+}
+
+.Grid.\-baseline {
+	align-items: baseline;
+}
+
+.Grid.\-left {
+	justify-content: flex-start;
+}
+
+.Grid.\-center {
+	justify-content: center;
+}
+
+.Grid.\-right {
+	justify-content: flex-end;
+}
+
+.Grid.\-between {
+	justify-content: space-between;
+}
+
+.Grid.\-around {
+	justify-content: space-around;
+}
+
+.Cell {
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.Cell.\-fill {
+	width: 0;
+	min-width: 0;
+	flex-grow: 1;
+}
+
+.Cell.\-1of12 {
+	width: calc(100% * 1 / 12);
+}
+
+.Cell.\-2of12 {
+	width: calc(100% * 2 / 12);
+}
+
+.Cell.\-3of12 {
+	width: calc(100% * 3 / 12);
+}
+
+.Cell.\-4of12 {
+	width: calc(100% * 4 / 12);
+}
+
+.Cell.\-5of12 {
+	width: calc(100% * 5 / 12);
+}
+
+.Cell.\-6of12 {
+	width: calc(100% * 6 / 12);
+}
+
+.Cell.\-7of12 {
+	width: calc(100% * 7 / 12);
+}
+
+.Cell.\-8of12 {
+	width: calc(100% * 8 / 12);
+}
+
+.Cell.\-9of12 {
+	width: calc(100% * 9 / 12);
+}
+
+.Cell.\-10of12 {
+	width: calc(100% * 10 / 12);
+}
+
+.Cell.\-11of12 {
+	width: calc(100% * 11 / 12);
+}
+
+.Cell.\-12of12 {
+	width: 100%;
+}
+
+@media (min-width: 400px) {
+	.container {
+		width: 85%;
+		padding: 0;
+	}
+}
+
+@media (min-width: 550px) {
+	.container {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.Cell.\-1of12,
+	.Cell.\-2of12,
+	.Cell.\-3of12,
+	.Cell.\-4of12,
+	.Cell.\-5of12,
+	.Cell.\-6of12,
+	.Cell.\-7of12,
+	.Cell.\-8of12,
+	.Cell.\-9of12,
+	.Cell.\-10of12,
+	.Cell.\-11of12,
+	.Cell.\-12of12 {
+		width: 100%;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 28px;
+	line-height: 19px;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 19px;
+}
+
+h3 {
+	font-size: 22px;
+	line-height: 19px;
+}
+
+h4 {
+	font-size: 19px;
+	line-height: 19px;
+}
+
+h5 {
+	font-size: 18px;
+	line-height: 19px;
+}
+
+h6 {
+	font-size: 16px;
+	line-height: 19px;
+}
+
+p {
+	font-size: 1.3rem;
+	line-height: 1.6rem;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+.container:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+section {
+	width: 100%;
+	height: 100vh;
+	display: table;
+}

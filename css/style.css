@@ -1,0 +1,451 @@
+﻿/*
+	PhotoTime 
+	5. Nov 2020.
+
+	MADE BY ALGHTRYER.
+	e: alghtryer@gmail.com w: alghtryer.github.io 
+*/
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: 'Gotham Rounded', sans-serif;
+}
+/* 
+	= = = = = = = = = = = = 
+		SECTION 1 
+	= = = = = = = = = = = = 
+*/
+.section1 {
+	background: url(../img/Livello.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.section1 a {
+	color: #fff;
+}
+
+.cnt {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.menu ul {
+	list-style: none;
+	top: 0;
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+	width: 100%;
+	font-size: 15px;
+}
+
+.menu li {
+	display: inline-flex;
+	align-items: flex-end;
+	text-transform: uppercase;
+}
+
+.menu li:before {
+	content: ' ';
+	padding-left: 15px;
+}
+
+.menu li img {
+	width: 80%;
+	padding-left: 15px;
+}
+
+.icon ul {
+	list-style: none;
+	color: #fff;
+}
+
+.icon li {
+	display: inline;
+}
+
+.icon li:after {
+	content: ' ';
+	padding-left: 15px;
+}
+
+.padded {
+	padding-top: 0;
+}
+
+.section1 h1 {
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	letter-spacing: 3px;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+
+.section1 p {
+	margin-top: 0;
+	color: #fff;
+}
+/* 
+	= = = = = = = = = = = = 
+		SECTION 2 
+	= = = = = = = = = = = = 
+*/
+.section2 {
+	background-color: #f5f6f7;
+	height: 380px;
+}
+
+.section2 .container {
+	margin-bottom: 0;
+}
+
+.button {
+	padding: 10px;
+	background-color: #16a085;
+	border: 1px solid #16a085;
+	color: #fff;
+}
+
+.section2 h4 {
+	color: #16a085;
+	text-transform: uppercase;
+	margin: 0;
+	letter-spacing: 3px;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+
+.section2 p {
+	color: #373737;
+}
+
+.section2 .padding {
+	padding-top: 70px;
+}
+
+.photosec2 {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+}
+/* 
+	= = = = = = = = = = = = 
+		SECTION 3 
+	= = = = = = = = = = = = 
+*/
+.section3 {
+	background-color: #fff;
+	max-height: 400px;
+}
+
+.section3 .container {
+	margin-bottom: 0;
+}
+
+.section3 .button {
+	padding: 10px;
+	background-color: #16a085;
+	border: 1px solid #16a085;
+	color: #fff;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.section3 .button2 {
+	background-color: #fff;
+	outline: none;
+	border: transparent;
+}
+
+.section3 h4 {
+	color: #16a085;
+	text-transform: uppercase;
+	margin: 0;
+	letter-spacing: 3px;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+
+.section3 p {
+	color: #373737;
+}
+
+.section3 .pds {
+	padding-top: 50px;
+}
+
+.section3 .padding {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.section3 .left {
+	padding-left: 10px;
+}
+.mydivs {
+	height: 150px;
+}
+
+.mydivs>p {
+	height: 100%;
+	overflow-y: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+/* 
+	= = = = = = = = = = = = 
+		SECTION 4 
+	= = = = = = = = = = = = 
+*/
+.section4 {
+	background-color: #f5f6f7;
+	max-height: 400px;
+	text-align: center;
+}
+
+.textLeft {
+	text-align: right;
+}
+
+.section4 .button2 {
+	background-color: transparent;
+	outline: none;
+	border: transparent;
+}
+
+.button {
+	padding: 10px;
+	background-color: #16a085;
+	border: 1px solid #16a085;
+	color: #fff;
+}
+
+.section4 h4 {
+	color: #16a085;
+	text-transform: uppercase;
+	margin: 0;
+	letter-spacing: 3px;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+
+.section4 p {
+	color: #373737;
+}
+
+.section4 .padding {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.small-img {
+	height: 54px;
+	width: 59px;
+	margin-bottom: 20px;
+}
+
+.slider {
+	height: 100%;
+	width: 100%;
+}
+
+.slider img {
+	height: 100%;
+	width: 100%;
+}
+
+.slider>.slide-img {
+	height: 100%;
+}
+
+/* 
+	= = = = = = = = = = = = 
+		SECTION 5 
+	= = = = = = = = = = = = 
+*/
+
+.section5 {
+	background: url(../img/Livelloe.png) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.section5 .center {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+.section5 h3 {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.sub-button {
+	background: #16a085;
+	border: 2px solid #16a085;
+	padding: 15px;
+}
+
+input[type=text] {
+	padding: 15px;
+	border: 2px solid #fff;
+}
+
+/* 
+	= = = = = = = = = = = = 
+		SECTION 6 
+	= = = = = = = = = = = = 
+*/
+.section6 {
+	background-color: #f5f6f7;
+	max-height: 300px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.section6 h4 {
+	text-transform: uppercase;
+}
+
+.section6 p {
+	text-transform: uppercase;
+	padding-bottom: 40px;
+}
+
+.apple {
+	display: inline-block;
+	background-color: #16a085;
+	color: #fff;
+	padding-right: 10px;
+	justify-content: right;
+}
+
+.apple-button {
+	background-color: #1abc9c;
+	border: 2px solid #1abc9c;
+	padding: 10px;
+	color: #fff;
+	width: 200px;
+}
+
+.fa-apple {
+	padding: 12px;
+	width: 25px;
+}
+
+.android {
+	display: inline-block;
+	background-color: #16a085;
+	padding-right: 10px;
+	color: #fff;
+	justify-content: right;
+}
+
+.android-button {
+	background-color: #1abc9c;
+	border: 2px solid #1abc9c;
+	padding: 10px;
+	color: #fff;
+	width: 200px;
+}
+
+.fa-android {
+	padding: 12px;
+	width: 25px;
+}
+/* 
+	= = = = = = = = = = = = 
+		FOOTER 
+	= = = = = = = = = = = = 
+*/
+footer {
+	max-height: 150px;
+	background-color: #fff;
+	padding: 25px;
+	text-align: left;
+}
+
+footer img {
+	float: right;
+	height: 53px;
+	width: 55px;
+	margin-bottom: 30px;
+}
+
+.footer {
+	margin-left: 50px;
+}
+
+footer ul {
+	display: flex;
+}
+
+footer li {
+	display: flex;
+	margin-left: 10px;
+}
+
+footer li:after {
+	content: '|';
+	display: flex;
+	margin-left: 10px;
+}
+
+footer li:last-child:after {
+	content: '';
+}
+
+@media (max-width:600px) {
+	.section1 h1 {
+		font-size: 18px;
+	}
+	.section1 p {
+		font-size: 1.0rem;
+	}
+	.menu ul {
+		font-size: 8px;
+	}
+	.menu li:before {
+		content: ' ';
+		padding-left: 10px;
+	}
+	.menu img {
+		padding-left: 10px;
+		width: 40%;
+	}
+	.footer {
+		font-size: 1.0rem;
+	}
+	footer img {
+		float: none;
+		position: absolute;
+		left: 50%;
+	}
+}
+
+@font-face {
+	font-family: 'Gotham Rounded';
+	src: url(GothamRoundedMedium_21022.ttf);
+}
