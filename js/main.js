@@ -15,16 +15,16 @@ $(document).ready(function ()
         });
 
         var divs2 = $('.slider>.slide-img');
-        var now = 0; // currently shown div
+        var now2 = 0; // currently shown div
         divs2.hide().first().show();
         $("button[name=next2]").click(function (e) {
-            divs2.eq(now).hide();
-            now = (now + 1 < divs2.length) ? now + 1 : 0;
-            divs2.eq(now).show(); // show next
+            divs2.eq(now2).hide();
+            now2 = (now2 + 1 < divs2.length) ? now2 + 1 : 0;
+            divs2.eq(now2).show(); // show next
         });
         $("button[name=prev2]").click(function (e) {
-            divs2.eq(now).hide();
-            now = (now > 0) ? now - 1 : divs2.length - 1;
-            divs2.eq(now).show(); 
+            divs2.eq(now2).hide();
+            now2 = (now2 > 0) ? now2 - 1 : divs2.length - 1;
+            divs2.eq(now2).show(); 
         });
     });
